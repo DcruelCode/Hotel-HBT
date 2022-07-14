@@ -1,0 +1,110 @@
+/* navbar */
+#navbar .logo{
+float: none;
+text-align: center;
+}
+
+#navbar ul, #navbar ul li{
+    float: none;
+    text-align: center;
+}
+
+#navbar ul li a{
+    padding: 10px;
+    border-bottom: #444 dotted 1px;
+}
+
+#navbar .container{
+    width: 100%;
+    padding: 0;
+}
+
+
+/* showcase */
+
+.showcase-content{
+    padding-top: 180px;
+}
+
+
+/* info */
+
+#info{
+    height: 100%;
+}
+
+#info .info-img{
+    float: none;
+    display: none;
+}
+
+#info .info-text{
+    width: 100%;
+    padding: 50px 30px;
+}
+
+/* features */
+
+#features .box{
+    float: none;
+    width: 100%;
+    color: #fff;
+    border-bottom: #333 dotted 1px;
+}
+
+
+/* about-info */
+
+#info-about{
+    height: 100%;
+}
+
+.about-text, .about-img{
+    float: none;
+}
+
+.about-text h2{
+    line-height: 3rem;
+}
+
+.about-text{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.about-img{
+    width: 100%;
+}
+
+.about-img img{
+    display: block;
+    width: 100%;
+}
+
+/* testimonials */
+#testimonials{
+    height: 100%;
+}
+
+
+.testimonial img{
+    width: 100px;
+    
+}
+
+.testimonial p{
+    float: right;
+}
+
+#testimonials h2{
+    line-height: 3rem;
+}
+
+#contact-us .container p{
+    margin-top: -10px;
+    padding-bottom: 10px;
+} 
+
+
+

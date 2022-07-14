@@ -1,0 +1,46 @@
+/* Features */
+
+#features .box{
+    float: none;
+    width: 100%;
+    color: #fff;
+    border-bottom: #333 dotted 1px;
+}
+
+/* Contact us */
+
+#contact-us .container p{
+    margin-top: -10px;
+    padding-bottom: 10px;
+} 
+
+/* Showcase */
+
+#showcase{
+    height: 100%;
+}
+
+.showcase-content{
+    text-align: center;
+    padding: 50px 0;
+    
+}
+
+/* Info */
+
+#info{
+    height: 100%;
+}
+
+#info .info-img{
+    float: none;
+    display: none;
+}
+
+#info .info-text{
+    float: none;
+    width: 100%;
+    padding: 50px 30px;
+}
+
+

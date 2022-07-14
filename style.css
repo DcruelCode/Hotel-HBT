@@ -1,0 +1,317 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility */
+
+.container{
+margin: auto;
+max-width: 1200px;
+overflow: auto;
+padding: 0 20px;    
+}
+
+.primary-text{
+    color: #f7c08a;
+}
+
+.lead{
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    color: #fff;
+    background: #444;
+    padding: 13px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #f7c08a;
+    color: #333;
+}
+
+.bg-dark{
+    background: #333;
+}
+
+.bg-light{
+    background: rgb(111, 108, 108);
+}
+
+.bg-primary{
+    background: #f7c08a;
+}
+
+.clr{
+    clear: both;
+}
+
+.md-t{
+    font-size: 2em;
+}
+
+.lg-t{
+    font-size: 2.5em;
+}
+
+.py-3{
+    padding: 30px 0;
+}
+
+.cl-w{
+    color: #fff;
+}
+
+.sm-br{
+    border: 1px solid black;
+}
+
+.p-top{
+    padding-top: 30px;
+}
+
+/* Standart Styling */
+
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+    position: relative;
+}
+
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+/* Navbar */
+
+#navbar{
+    background: #333;
+    overflow: auto;
+}
+
+#navbar a{
+    color: #fff;
+}
+
+#navbar .logo{
+    padding-top: 20px;
+    float: left;
+}
+
+#navbar ul{
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+}
+
+#navbar ul li a:hover, #navbar ul li a.active{
+    background: #f7c08a;
+    color: #444;
+}
+
+/* Showcase */
+
+#showcase{
+    background: url("./img/showcase.jpg") no-repeat center center/cover;
+    height: 600px;
+    color: #fff;
+}
+
+.showcase-content{
+    text-align: center;
+    padding-top: 175px;
+    
+}
+
+.showcase-content h2{
+    font-size: 2.5em;
+    line-height: 1.5em;
+}
+
+.showcase-content p{
+line-height: 1.2em;
+padding-bottom: 20px;
+}
+
+/* info */
+
+#info{
+    height: 400px;
+    overflow: hidden;
+}
+
+#info .info-img{
+    float: left;
+    width: 50%;
+    background: url('./img/photo-1.jpg') no-repeat;
+    min-height: 100%;
+}
+
+#info .info-text{
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding: 100px 30px;
+    height: 100%;
+    color: #fff;
+}
+
+#info .info-text p{
+    padding-bottom: 20px;
+}
+
+/* features */
+
+#features{
+    overflow: auto;
+}
+
+#features .box{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 50px;
+    background: #444;
+}
+
+.box i{
+    margin-bottom: 10px;
+}
+
+
+/* about-info */
+
+
+.about-text{
+    float: left;
+    width: 50%;
+}
+
+.about-img{
+    float: right;
+    min-height: 100%;
+    width: 50%;
+}
+
+.about-img img{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 25px;
+    
+}
+
+/* testimonials */
+
+#testimonials{
+    text-align: center;
+    background: url('./img/test-bg.jpg') no-repeat center center/cover;
+}
+
+#testimonials h2{
+    color: #fff;
+    
+}
+
+.testimonial{
+  margin-bottom: 50px;
+  padding: 20px;
+  overflow: auto;  
+  border-radius: 13px;
+  opacity: 0.8 ;
+}
+
+.testimonial img{
+    width: 10%;
+    float: left;
+    border-radius: 75px;
+}
+
+.testimonial p{
+    width: 90%;
+    float: right;
+    padding-left: 15px;
+}
+
+/*Form*/
+
+.form-group input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.form-group textarea{
+    display: block;
+    padding: 80px;
+    margin-bottom: 20px;
+}
+
+.form-group textarea:focus, .form-group input:focus{
+    outline: none;
+    border-color: #f7c08a;
+}
+
+.form-group textarea, .form-group input{
+    border: 1px solid #ddd;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+/* Footer */
+
+#main-footer{
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Additional Media Queries */
+
+@media(min-height:400px) and (max-height:812px){
+    .about-text h2{
+        padding-top:10px;
+    }
+}
+
+
+@media(min-width:809px) and (max-width:811px){
+    #features .box{
+        float: none;
+        width: 100%;
+        color: #fff;
+        border-bottom: #333 dotted 1px;
+    }
+}
